@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.iphone{
+    border-color:rgb(0, 128, 255) ;
+    border:1px rgb(0, 128, 255) solid;
+}
+.product{
+    float: left;
+    border-color: rgb(0, 128, 255);
+    border:1px rgb(0, 128, 255) solid;
+    width: 20%;
+    margin: 5px;
+    padding: 20px;
+}
+.product img {
+    width:200px;
+    border: 0.5px gray solid;
+    margin-left: 5%;
+    margin-right:5%;
+    width: 90%;    
+}
+ .product button{
+    text-align: center;
+    border-style:solid;
+    border-color:rgb(0, 128, 255);
+ }
+.iphone button.card{
+    text-align: center;
+    background-color:rgb(0, 128, 255) ;
+    color:white;
+}
+.product span.current-price {
+    color: green;
+}
+.product span.old-price {
+    color: red;
+}
+.clear-fix{
+    clear: left;
+}
